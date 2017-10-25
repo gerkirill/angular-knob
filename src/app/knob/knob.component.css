@@ -1,0 +1,13 @@
+button {
+  font-size: 40px;
+}
+
+.on {
+  background-color: #fff;
+  color: #000;
+}
+
+.off {
+  background-color: #000;
+  color: #fff;
+}

@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  title = 'my <app>';
+
+  onButtonOneClicked(state) {
+    console.log(`button 1 is ${state}`);
+  }
 }
